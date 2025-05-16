@@ -32,6 +32,7 @@ const stateStore = useStateStore()
 <style scoped lang="scss">
 
 .backrooms {
+  background-color: #E68EB6;
   background-image: url('/images/backrooms.jpg');
   background-size: cover;
 

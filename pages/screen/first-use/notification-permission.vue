@@ -41,6 +41,7 @@ const stateStore = useStateStore()
 <style scoped lang="scss">
 
 .notification-permission {
+  background-color: #EC7129;
   background-image: url('/images/coins.jpg');
   background-size: cover;
 

@@ -41,6 +41,7 @@ const clickRestore = () => {
 <style scoped lang="scss">
 
 .cover {
+  background-color: #C7A4B5;
   background-image: url('/images/cover.jpg');
   background-size: cover;
 
