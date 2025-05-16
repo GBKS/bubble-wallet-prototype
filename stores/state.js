@@ -1,4 +1,4 @@
-import { defineStore, skipHydrate } from 'pinia'
+import { defineStore } from 'pinia'
 import { useLocalStorage } from '@vueuse/core'
 
 export const useStateStore = defineStore('state', {
@@ -37,6 +37,7 @@ export const useStateStore = defineStore('state', {
       transactions: ref(null),
       paymentRequest: ref(null),
       send: ref(null),
+      isInStandaloneMode: ref(false)
     }
   },
 

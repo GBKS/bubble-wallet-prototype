@@ -11,10 +11,11 @@ const icon = computed(() => {
 </script>
 
 <template>
-  <button
-    v-html="icon"
-    title="Toggle prototype navigation"
-  />
+  <button title="Toggle prototype navigation">
+    <div />
+    <div />
+    <div />
+  </button>
 </template>
 
 <style scoped lang="scss">
@@ -24,13 +25,26 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  gap: 4px;
   color: var(--neutral-9);
   transition: all 100ms $ease;
   cursor: pointer;
 
+  > div {
+    width: 16px;
+    height: 1.5px;
+    background-color: var(--neutral-9);
+    border-radius: 2px;
+    transition: all 100ms $ease;
+
+    &:last-child {
+      width: 12px;
+    }
+  }
+
   &:hover {
-    background-color: var(--neutral-2);
+    background-color: var(--neutral-4);
   }
 
   &.-active {
@@ -45,12 +59,23 @@ button {
 
   @include media-query(small) {
     position: fixed;
-    bottom: 30px;
+    top: 50%;
     left: 10px;
+    transform: translateY(-50%);
     padding: 10px;
-    background-color: var(--neutral-9);
-    border-radius: 100px;
+    background-color: rgba(black, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
     color: var(--neutral-0);
+    z-index: 1000;
+
+    > div {
+      background-color: white;
+    }
+
+    &:hover {
+      background-color: black;
+    }
   }
 
   @include media-query(medium-up) {

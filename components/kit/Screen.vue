@@ -1,5 +1,6 @@
 <script setup>
 import Icons from '@/helpers/icons.js'
+import { useStateStore } from "@/stores/state.js"
 
 const props = defineProps({
   id: {
@@ -7,10 +8,22 @@ const props = defineProps({
     required: false
   }
 })
+
+const stateStore = useStateStore()
+
+const classObject = computed(() => {
+  const c = ['screen']
+
+  if(stateStore.isInStandaloneMode) {
+    c.push('-standalone')
+  }
+  
+  return c
+})
 </script>
 
 <template>
-  <div class="screen" :id="id">
+  <div :class="classObject" :id="id">
     <div class="wrap">
       <div class="top">
         <p>22:03</p>
@@ -153,6 +166,12 @@ const props = defineProps({
     ::v-deep(.bottom) {
       padding-top: 20px;
       max-width: 340px;
+    }
+  }
+
+  &.-standalone {
+    .top {
+      opacity: 0;
     }
   }
 }

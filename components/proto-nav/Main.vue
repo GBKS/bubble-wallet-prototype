@@ -87,12 +87,14 @@ const classObject = computed(() => {
 
   @include media-query(small) {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 15px;
+    left: 15px;
+    z-index: 999;
 
     &.-expanded {
-      width: 100vw;
-      height: 100dvh;
+      width: calc(100vw - 30px);
+      height: calc(100dvh - 30px);
+      border-radius: 15px;
       overflow-y: scoll;
     }
   }

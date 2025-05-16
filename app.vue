@@ -214,6 +214,8 @@ onMounted(() => {
 
     window.addEventListener('resize', updateScreenSize)
     updateScreenSize()
+
+    state.isInStandaloneMode = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
   }
 
   const emitter = mitt()

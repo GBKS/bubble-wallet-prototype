@@ -16,12 +16,13 @@ export default defineNuxtConfig({
     head: {
       title: 'Bitcoin Core App Prototype',
       meta: [
+        { name: 'viewport', content: 'width=device-width, initial-scale=1, viewport-fit=cover' },
         { name: 'description', content: 'For quick iteration and testing of designs.' },
         { name: 'msapplication-TileColor', content: '#ffffff' },
         { name: 'msapplication-TileImage', content: '/ms-icon-144x144.png' },
         { name: 'theme-color', content: '#ffffff', id: 'themeColorMeta' },
         { name: 'apple-mobile-web-app-capable', content: 'yes' },
-        { name: 'apple-mobile-web-app-status-bar-style', content: 'default' },
+        { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
         { name: 'apple-mobile-web-app-title', content: 'Bubble Wallet' }
       ],
       link: [
