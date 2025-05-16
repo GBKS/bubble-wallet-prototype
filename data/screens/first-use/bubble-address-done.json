@@ -1,0 +1,18 @@
+{
+	"name": "Bubble address done",
+	"states": {
+		"default": {
+			"name": "Default",
+			"title": "You are all set",
+			"description": "Your address will be available in a few minutes.<br/><br/>Posting it online may reduce your privacy. Use it where it makes sense.<br/><br/>Also, not all wallets support this yet. Stay tuned for a glorious future.",
+			"button": {
+				"label": "Address settings",
+				"to": "#"
+			},
+			"buttonTwo": {
+				"label": "Done",
+				"to": "/screen/first-use/unit-format?t=slide-left"
+			}
+		}
+	}
+}

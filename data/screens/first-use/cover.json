@@ -1,0 +1,20 @@
+{
+	"name": "Cover",
+	"category": "First use",
+	"states": {
+		"default": {
+			"name": "Default",
+			"title": "Bubble Wallet",
+			"description": "Just Bitcoin. Soft on the outside, serious underneath.",
+			"note": "A somewhat goofy interactive exploration.",
+			"button": {
+				"label": "Create a new wallet",
+				"to": "/screen/first-use/backup?t=slide-left"
+			},
+			"buttonTwo": {
+				"label": "Restore existing wallet",
+				"to": ""
+			}
+		}
+	}
+}

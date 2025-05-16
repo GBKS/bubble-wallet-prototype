@@ -1,0 +1,17 @@
+{
+	"name": "Connection settings",
+	"states": {
+		"default": {
+			"name": "Default",
+			"title": "Connection settings",
+			"back": {
+				"label": "Done",
+				"to": "/screen/first-use/initial-download?t=slide-down"
+			}
+		},
+		"onboarding": {
+			"name": "Onboarding",
+			"onboarding": true
+		}
+	}
+}

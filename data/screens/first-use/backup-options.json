@@ -1,0 +1,14 @@
+{
+	"name": "Backup options",
+	"states": {
+		"default": {
+			"name": "Default",
+			"title": "Let’s back up",
+			"description": "You don’t want to lose your bitcoin, and backing your wallet is important for that. There are three parts to this.",
+			"button": {
+				"label": "Next",
+				"to": "/screen/first-use/ok?t=slide-left"
+			}
+		}
+	}
+}

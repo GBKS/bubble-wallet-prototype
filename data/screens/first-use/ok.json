@@ -1,0 +1,14 @@
+{
+	"name": "Ok",
+	"states": {
+		"default": {
+			"name": "Default",
+			"title": "Bitcoin is yours, and yours alone.",
+			"description": "If you lose access to your wallet and backup, your bitcoin is gone. No one can help recover it. Not even us.<br/><br/>Take care of it like real money.<br/>Because it is.",
+			"button": {
+				"label": "I understand",
+				"to": "/screen/first-use/lsp?t=slide-left"
+			}
+		}
+	}
+}

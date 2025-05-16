@@ -1,0 +1,18 @@
+{
+	"name": "LSP",
+	"states": {
+		"default": {
+			"name": "Default",
+			"title": "Time to move fast.",
+			"description": "Lightning lets you send bitcoin instantly with tiny fees. We’ll set you up with a provider so you’re good to go.",
+			"button": {
+				"label": "Use default",
+				"to": "/screen/first-use/bubble-address-intro?t=slide-left"
+			},
+			"buttonTwo": {
+				"label": "View options",
+				"to": "/screen/first-use/lsp-options?t=slide-left"
+			}
+		}
+	}
+}

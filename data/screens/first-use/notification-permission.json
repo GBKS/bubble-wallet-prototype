@@ -1,0 +1,18 @@
+{
+	"name": "Notification permission",
+	"states": {
+		"default": {
+			"name": "Default",
+			"title": "Want to be notified when you receive bitcoin?",
+			"description": "We can bug you right away. Or not.",
+			"button": {
+				"label": "Let me know",
+				"to": "/screen/first-use/features?t=slide-left"
+			},
+			"buttonTwo": {
+				"label": "Nope",
+				"to": "/screen/first-use/features?t=slide-left"
+			}
+		}
+	}
+}

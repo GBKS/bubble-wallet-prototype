@@ -1,0 +1,14 @@
+{
+	"name": "Backrooms",
+	"states": {
+		"default": {
+			"name": "Default",
+			"title": "What's this?",
+			"description": "You got lost in the prototype backrooms. No turning back now... Or is there?",
+			"button": {
+				"label": "Back to the start",
+				"to": "/screen/first-use/cover?t=slide-right"
+			}
+		}
+	}
+}

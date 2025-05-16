@@ -1,0 +1,18 @@
+{
+	"name": "Deposit",
+	"states": {
+		"default": {
+			"name": "Default",
+			"title": "Make your first bitcoin deposit",
+			"description": "Your wallet’s ready... but it’s empty. Share your address below to get your first bitcoin.",
+			"button": {
+				"label": "Share address",
+				"to": ""
+			},
+			"buttonTwo": {
+				"label": "Do this later",
+				"to": "/screen/backrooms?t=slide-left"
+			}
+		}
+	}
+}

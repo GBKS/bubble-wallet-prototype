@@ -1,0 +1,14 @@
+{
+	"name": "Unit format",
+	"states": {
+		"default": {
+			"name": "Default",
+			"title": "How do you like your bitcoin formatted?",
+			"description": "It’s the same amount, just shown differently. Choose the style that works for you.",
+			"button": {
+				"label": "Next",
+				"to": "/screen/first-use/notification-permission?t=slide-left"
+			}
+		}
+	}
+}

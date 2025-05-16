@@ -1,0 +1,15 @@
+{
+	"name": "Activity",
+	"category": "Main",
+	"nav": true,
+	"states": {
+		"default": {
+			"name": "Filled",
+			"title": "Activity"
+		},
+		"empty": {
+			"name": "Empty",
+			"empty": true
+		}
+	}
+}

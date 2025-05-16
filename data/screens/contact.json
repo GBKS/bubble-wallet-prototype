@@ -1,0 +1,14 @@
+{
+	"name": "Contact",
+	"nav": true,
+	"states": {
+		"default": {
+			"name": "Filled",
+			"title": "Contact"
+		},
+		"empty": {
+			"name": "Empty",
+			"empty": true
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"name": "Add contact",
+	"category": "Contacts",
+	"states": {
+		"default": {
+			"name": "Filled",
+			"title": "Add contact"
+		},
+		"empty": {
+			"name": "Empty",
+			"empty": true
+		}
+	}
+}

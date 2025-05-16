@@ -1,0 +1,14 @@
+{
+	"name": "LSP details",
+	"states": {
+		"default": {
+			"name": "Default",
+			"title": "LSP details",
+			"description": "Choose a provider to help you stay connected to the lightning network.",
+			"button": {
+				"label": "Choose this provider",
+				"to": "/screen/first-use/bubble-address-intro?t=slide-left"
+			}
+		}
+	}
+}

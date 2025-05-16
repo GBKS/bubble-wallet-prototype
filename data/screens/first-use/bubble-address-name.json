@@ -1,0 +1,14 @@
+{
+	"name": "Bubble address name",
+	"states": {
+		"default": {
+			"name": "Default",
+			"title": "Choose a username",
+			"description": "Bitcoin addresses are long and clunky. A Bubble address is short, simple, and easy to share.",
+			"button": {
+				"label": "Next",
+				"to": "/screen/first-use/bubble-address-done?t=slide-left"
+			}
+		}
+	}
+}

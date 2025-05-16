@@ -1,0 +1,14 @@
+{
+	"name": "Features",
+	"states": {
+		"default": {
+			"name": "Default",
+			"title": "There’s more... but you’ll get to it later",
+			"description": "Your wallet has more features to explore. Take your time, we’ve now got the basics covered.",
+			"button": {
+				"label": "Next",
+				"to": "/screen/first-use/deposit?t=slide-left"
+			}
+		}
+	}
+}

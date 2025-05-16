@@ -1,0 +1,13 @@
+{
+	"name": "Storage settings",
+	"states": {
+		"default": {
+			"name": "Default",
+			"title": "Storage settings"
+		},
+		"onboarding": {
+			"name": "Onboarding",
+			"onboarding": true
+		}
+	}
+}
