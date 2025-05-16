@@ -16,7 +16,7 @@
 }
 
 :root {
-  font-family: -apple-system-rounded, 'SF Pro Rounded', 'Quicksand', 'Segoe UI Rounded', 'Arial Rounded MT Bold', sans-serif;
+  font-family: 'Quicksand', 'Segoe UI Rounded', 'Arial Rounded MT Bold', sans-serif;
   font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
 }
 
@@ -37,7 +37,7 @@ body {
 html, 
 p {
   margin: 0;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.4;
   letter-spacing: -0.01rem;
   color: var(--neutral-7);
@@ -45,7 +45,7 @@ p {
 
 p {
   b {
-    font-weight: 900;
+    font-weight: 700;
   }
 
   a {
@@ -113,7 +113,7 @@ h6,
 .-p5,
 .-p6 {
   margin: 0;
-  font-weight: 300;
+  font-weight: 500;
   color: var(--front);
 }
 

@@ -96,7 +96,7 @@ const content = computed(() => {
   appearance: none;
   border-width: 0;
   transition: all 150ms $ease;
-  font-weight: 600;
+  font-weight: 700;
   display: flex;
   justify-content: center;
   align-items: center;
