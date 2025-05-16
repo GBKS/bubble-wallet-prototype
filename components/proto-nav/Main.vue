@@ -93,7 +93,7 @@ const classObject = computed(() => {
 
     &.-expanded {
       width: calc(100vw - 30px);
-      height: calc(100dvh - 30px);
+      height: calc(100dvh - env(safe-area-inset-top) - 30px);
       border-radius: 15px;
       overflow-y: scoll;
     }
