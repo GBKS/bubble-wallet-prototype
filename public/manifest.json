@@ -1,7 +1,5 @@
 {
- "name": "App",
- "display": "standalone",
- "start_url": "/",
+ "name": "Bubble Wallet",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
