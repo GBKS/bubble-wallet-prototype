@@ -7,12 +7,17 @@
 @import "_mixins";
 @import "_type";
 
-:root {
-  font-family: Inter, sans-serif;
-  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+@font-face {
+    font-family: 'Quicksand';
+    src: url('~/assets/fonts/Quicksand-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900; /* since it's a variable font */
+    font-style: normal;
+    font-display: swap;
 }
-@supports (font-variation-settings: normal) {
-  :root { font-family: InterVariable, sans-serif; }
+
+:root {
+  font-family: -apple-system-rounded, 'SF Pro Rounded', 'Quicksand', 'Segoe UI Rounded', 'Arial Rounded MT Bold', sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
 }
 
 html {

@@ -19,7 +19,10 @@ export default defineNuxtConfig({
         { name: 'description', content: 'For quick iteration and testing of designs.' },
         { name: 'msapplication-TileColor', content: '#ffffff' },
         { name: 'msapplication-TileImage', content: '/ms-icon-144x144.png' },
-        { name: 'theme-color', content: '#ffffff', id: 'themeColorMeta' }
+        { name: 'theme-color', content: '#ffffff', id: 'themeColorMeta' },
+        { name: 'apple-mobile-web-app-capable', content: 'yes' },
+        { name: 'apple-mobile-web-app-status-bar-style', content: 'default' },
+        { name: 'apple-mobile-web-app-title', content: 'Bubble Wallet' }
       ],
       link: [
         { rel: 'apple-touch-icon', sizes: '57x57', href: '/images/apple-icon-57x57.png' },
@@ -31,12 +34,11 @@ export default defineNuxtConfig({
         { rel: 'apple-touch-icon', sizes: '144x144', href: '/images/apple-icon-144x144.png' },
         { rel: 'apple-touch-icon', sizes: '152x152', href: '/images/apple-icon-152x152.png' },
         { rel: 'apple-touch-icon', sizes: '180x180', href: '/images/apple-icon-180x180.png' },
+        { rel: 'apple-touch-icon', sizes: '512x512', href: '/images/apple-icon-512x512.png' },
         { rel: 'icon', type: 'image/png', sizes: '144x144', href: '/images/android-icon-192x192.png' },
         { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/images/favicon-32x32.png' },
         { rel: 'icon', type: 'image/png', sizes: '96x96', href: '/images/favicon-96x96.png' },
         { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/images/favicon-16x16.png' },
-        { rel: 'preconnect', href: 'https://rsms.me/' },
-        { rel: 'stylesheet', href: 'https://rsms.me/inter/inter.css' },
         { rel: 'manifest', href:'/manifest.json' }
       ]
     }
