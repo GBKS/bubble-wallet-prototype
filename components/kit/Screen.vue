@@ -173,6 +173,10 @@ const classObject = computed(() => {
     .top {
       opacity: 0;
     }
+
+    .wrap {
+      padding-top: env(safe-area-inset-top);
+    }
   }
 }
 
