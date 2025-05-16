@@ -87,7 +87,7 @@ const classObject = computed(() => {
 
   @include media-query(small) {
     position: absolute;
-    top: 15px;
+    top: calc(env(safe-area-inset-top) + 15px);
     left: 15px;
     z-index: 999;
 
